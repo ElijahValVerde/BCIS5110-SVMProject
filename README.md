@@ -1,1 +1,7 @@
-# BCIS5110-SVMProject
+# Verde Company Logistic Trucking SVM Project
+
+## A example of using linear regression and support vector machines to solve business needs
+
+This project was made to showcase the use of linear regression and support vector machines. My first goal for this task is to use the dataset from the top three branches comparing their orders using their actual data. My second goal is to lower the total cost to make sure their prices are able to compete with their competitors while giving their client’s the fairest price. Lastly, as the fuel prices have been growing rapidly I am looking to predict the fuel prices for the long run to sustain the business with the company's current clients.
+
+The dataset provides information about Verde’s Material Co. trucking logistics to give an overview of an order and the total cost associated with shipping the order. This dataset originally had 14,742 rows and 50 columns including both categorical and numerical values as row inputs. The date range for this dataset ranges from 2011 to 2022. The first two columns present the unique order ID along with whether the truck (order) was heading inbound or outbound. To track the shipment the dataset provides useful information to see the exact location (city, state, zip code) that the order originated from and its destination. Using columns such as fuel cost, total miles, and other miscellaneous factors we can calculate the total charges accumulated while shipping the order. Once the order has met its destination it is either assigned on time or late.
